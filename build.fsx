@@ -70,7 +70,6 @@ Target.create "Publish" (fun _ ->
 open Fake.Core.TargetOperators
 
 "Build"
-==> "Test"
 ==> "Pack"
 ==> "Publish"
 
