@@ -1,4 +1,4 @@
-module Dapper.Extensions
+module Acadian.Dapper
 
 open System
 open System.Data.SqlClient
