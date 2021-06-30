@@ -1,4 +1,4 @@
-﻿namespace Acadian.FSharp
+﻿namespace Acadian.Dapper.Fs
 
 [<AutoOpen>]
 module Prelude =

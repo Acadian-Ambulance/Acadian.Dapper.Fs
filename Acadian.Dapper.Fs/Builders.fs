@@ -1,4 +1,4 @@
-﻿namespace Acadian.FSharp
+﻿namespace Acadian.Dapper.Fs
 
 type OptionBuilder() =
     member this.Bind (x, f) = Option.bind f x

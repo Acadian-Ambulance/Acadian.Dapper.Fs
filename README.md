@@ -1,9 +1,9 @@
-# Acadian.FSharp
+# Acadian.Dapper.Fs
 
 This library contains some useful utility functions that feel missing from the F# core library. It also contains
 computation expression builders for Option and Result workflows.
 
-The library is small and documented, so you could just [read the source code](Acadian.FSharp/FSharp.fs), or keep reading
+The library is small and documented, so you could just [read the source code](Acadian.Dapper.Fs/FSharp.fs), or keep reading
 for an overview of the additions and an in-depth look at the new workflows.
 
 ## Top-level Functions
@@ -174,7 +174,7 @@ As an example, let's validate a date range from text user inputs. This could be 
 
 ```fsharp
 let validateDates beginText endText =
-    match Parse.Date beginText with // Parse.Date is an Acadian.FSharp function
+    match Parse.Date beginText with // Parse.Date is an Acadian.Dapper.Fs function
     | None -> Error "Begin date is not in a valid format"
     | Some beginDate ->
         match Parse.Date endText with

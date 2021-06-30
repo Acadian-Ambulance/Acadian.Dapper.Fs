@@ -1,4 +1,4 @@
-﻿namespace Acadian.FSharp.AssemblyInfo
+﻿namespace Acadian.Dapper.Fs.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("Acadian.FSharp")>]
+[<assembly: AssemblyTitle("Acadian.Dapper.Fs")>]
 [<assembly: AssemblyDescription("F# utilities, including extra String, Seq, Option, and Result functions, option and result computation expressions, and a Parse module.")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("Acadian Ambulance Service")>]
-[<assembly: AssemblyProduct("Acadian.FSharp")>]
+[<assembly: AssemblyProduct("Acadian.Dapper.Fs")>]
 [<assembly: AssemblyCopyright("Copyright © 2020 Acadian Ambulance Service")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
