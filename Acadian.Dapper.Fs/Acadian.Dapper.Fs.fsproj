@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard1.6;net45</TargetFrameworks>
@@ -11,13 +12,16 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Builders.fs" />
-    <Compile Include="FSharp.fs" />
+    <Compile Include="Dapper.Extensions.fs" />
     <None Include="../LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
   </ItemGroup>
+
   <ItemGroup>
     <PackageReference Update="FSharp.Core" Version="4.3.4" />
   </ItemGroup>
+
 </Project>
