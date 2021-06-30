@@ -5,8 +5,7 @@
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Authors>Acadian Ambulance Service</Authors>
     <Description>
-      F# utilities, including extra String, Seq, Option, and Result functions, option and result computation
-      expressions, and a Parse module.
+      Dapper utilities, including optional typing and Task map and bind
     </Description>
     <PackageProjectUrl>https://github.com/Acadian-Ambulance/Acadian.Dapper.Fs</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
