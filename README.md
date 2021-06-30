@@ -12,5 +12,5 @@ Adds extensions for Dapper
 
 This library extends several core modules:
 
-- `Task` has additions such as map and mapAsync
+- `Task` has additions such as map and bind
 
