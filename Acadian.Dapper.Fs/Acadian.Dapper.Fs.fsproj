@@ -14,8 +14,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Builders.fs" />
     <Compile Include="Dapper.Extensions.fs" />
     <None Include="../LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
   </ItemGroup>
