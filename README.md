@@ -2,15 +2,29 @@
 
 Adds extensions for Dapper
 
-## Dependencies
-- just 0.9.5
-- dotnet v5.0.103
-- fantomas v4.4.0 (dotnet tool install -g fantomas-tool)
-- dotnet fsharplint (dotnet tool install -g dotnet-fsharplint)
+## Top level functions
+- safeSqlConnection - wraps a sql connection with handlers that allow you to use the option type in your F# models. Null from the db is converted to None and values are converted to Some value
 
 ## Module Extensions
 
 This library extends several core modules:
 
 - `Task` has additions such as map and bind
+
+## Dependencies
+- dotnet v5.0.103
+
+## Development Dependencies
+- just 0.9.5 - command runner
+- fantomas v4.4.0 - code formatting tool (dotnet tool install -g fantomas-tool)
+- dotnet fsharplint - code linter (dotnet tool install -g dotnet-fsharplint)
+
+# Development Tools
+- VS Code
+- VS Code Extension ionide.ionide-fsharp
+
+# Building/Running/Testing
+- Uses dotnet cli
+Ex: To run tests
+> dotnet test
 
