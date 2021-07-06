@@ -1,4 +1,4 @@
-﻿module Acadian.Dapper.Fs
+module Acadian.Dapper.Fs
 
 open Expecto
 
