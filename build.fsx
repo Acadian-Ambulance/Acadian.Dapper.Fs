@@ -1,8 +1,7 @@
-#r "paket:
-nuget Fake.BuildServer.TeamCity
-nuget Fake.Core.Target
-nuget Fake.Core.UserInput
-nuget Fake.DotNet.Cli //"
+#r "nuget: Fake.BuildServer.TeamCity"
+#r "nuget: Fake.Core.Target"
+#r "nuget: Fake.Core.UserInput"
+#r "nuget: Fake.DotNet.Cli"
 #load "./.fake/build.fsx/intellisense.fsx"
 
 open Fake.Core
