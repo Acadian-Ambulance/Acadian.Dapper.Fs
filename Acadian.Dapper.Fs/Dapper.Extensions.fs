@@ -16,6 +16,7 @@ module DapperExtensions =
         | prop -> prop.GetValue(x)
 
   let (+>) (map: Map<string, obj>) (key, value) = map.Add(key, extractValue value)
+
   let singleParam (key, value) = (Map.empty) +> (key, value)
 
   type OptionHandler<'T>() =
@@ -26,7 +27,6 @@ module DapperExtensions =
         match value with
         | Some x -> box x
         | None -> null
-
       param.Value <- valueOrNull
 
     override __.Parse value = if isNull value || value = box DBNull.Value then None else Some(value :?> 'T)
