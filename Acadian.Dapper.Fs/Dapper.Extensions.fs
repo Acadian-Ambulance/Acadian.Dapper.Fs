@@ -37,6 +37,7 @@ module DapperExtensions =
     SqlMapper.AddTypeHandler(OptionHandler<int>())
     SqlMapper.AddTypeHandler(OptionHandler<string>())
     SqlMapper.AddTypeHandler(OptionHandler<DateTime>())
+    SqlMapper.AddTypeHandler(OptionHandler<bool>())
 
   let safeSqlConnection string =
     registerTypeHandlers ()
