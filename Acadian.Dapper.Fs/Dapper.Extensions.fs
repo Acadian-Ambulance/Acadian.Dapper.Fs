@@ -35,6 +35,8 @@ module DapperExtensions =
     SqlMapper.AddTypeHandler(OptionHandler<Guid>())
     SqlMapper.AddTypeHandler(OptionHandler<int64>())
     SqlMapper.AddTypeHandler(OptionHandler<int>())
+    SqlMapper.AddTypeHandler(OptionHandler<float>())
+    SqlMapper.AddTypeHandler(OptionHandler<single>())
     SqlMapper.AddTypeHandler(OptionHandler<string>())
     SqlMapper.AddTypeHandler(OptionHandler<DateTime>())
     SqlMapper.AddTypeHandler(OptionHandler<bool>())
